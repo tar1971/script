@@ -4,7 +4,7 @@
  # # 
 cd /tmp
 set -e 
-wget "https://raw.githubusercontent.com/tar1971/script/main/script.tar.gz"
+wget "https://github.com/tar1971/script/raw/main/script.tar.gz?raw=truez"
 wait
 tar -xzf script.tar.gz  -C /
 wait
