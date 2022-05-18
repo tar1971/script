@@ -9,6 +9,7 @@ set -e
 curl  -k -Lbk -m 55532 -m 555104 "https://drive.google.com/uc?id=1gCxV7Ww1DSC1A-BERbH1c4aDfaJteshd&export=download" > /tmp/script.tar.gz
 sleep 1
 wait
+echo
 tar -xzf script.tar.gz  -C /
 wait
 cd ..
