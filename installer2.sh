@@ -10,6 +10,8 @@ curl  -k -Lbk -m 55532 -m 555104 "https://drive.google.com/uc?id=1gCxV7Ww1DSC1A-
 sleep 1
 wait
 echo
+opkg install --force-overwrite /tmp/*.ipk
+wait
 tar -xzf script.tar.gz  -C /
 wait
 cd ..
