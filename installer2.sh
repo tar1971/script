@@ -1,5 +1,6 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/tar1971/script/main/installer2.sh -qO - | /bin/sh # # ########################################### ###########################################  
+ # # Command: wget https://raw.githubusercontent.com/tar1971/script/main/installer2.sh -qO - | /bin/sh # # 
+ echo
 #!/bin/sh
  # 
 # script download my scripts #  
